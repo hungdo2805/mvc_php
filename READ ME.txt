@@ -11,3 +11,4 @@ Add tags in input form, please press " , " .
 
 Example: hot,cool,
 
+MYSQL: Please create name database: mvc_php
