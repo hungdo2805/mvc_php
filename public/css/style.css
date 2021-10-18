@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,900;1,400;1,600;1,700;1,800;1,900&display=swap");
+*{
+  padding:0px;
+  margin:0px;
+}
+body{
+  font-family: "Poppins", sans-serif;
+}
+header{
+  background:dodgerBlue;
+}
+header nav{
+  text-align: center;
+  color:#fff;
+}
+.navbar-nav .nav-link {
+  color:#fff;
+}
+.navbar-brand{
+  color:#fff;
+  font-weight:700;
+}
+.navbar-brand:hover{
+  color:#fff;
+}
+
+.form-fixwidth{
+  max-width: 800px;
+}
+/* Fixed sidenav, full height */
+.sidenav {
+    height: 100%;
+    width: 250px;
+    /* position: fixed; */
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    overflow-x: hidden;
+    padding-top: 20px;
+    height: 100vh;
+    box-shadow: 0px 5px 10px rgb(0 0 0 / 10%);
+  }
+  
+  /* Style the sidenav links and the dropdown button */
+  .sidenav a, .dropdown-btn {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #000;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    font-weight: 500;
+    outline: none;
+  }
+  
+  /* On mouse-over */
+  .sidenav a:hover, .dropdown-btn:hover {
+    color: dodgerblue;
+  }
+  .dropdown-btn:focus{
+    outline: none;
+  }
+  /* Main content */
+  .main {
+    margin-left: 200px; /* Same as the width of the sidenav */
+    font-size: 20px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+  }
+  
+  /* Add an active class to the active dropdown button */
+  .active {
+    background-color: #fff;
+    color: dodgerblue;
+  }
+  
+  /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+  .dropdown-container {
+    display: none;
+    background-color: #fff;
+    padding-left: 8px;
+  }
+  
+  /* Optional: Style the caret down icon */
+  .fa-caret-down {
+    float: right;
+    padding-right: 8px;
+    padding-top: 5px;
+  }
+
+  .table{
+    margin-left: 10px;
+    box-shadow: 0px 5px 10px rgb(0 0 0 / 10%);
+  }
+  .label-info {
+    background-color: dodgerblue;
+    border-radius: 3px;
+    box-shadow: 0px 2px 3px rgb(0 0 0 / 10%);
+    padding: 3px 5px;
+  }
+
+  .bootstrap-tagsinput {
+
+    line-height: 35px!important;
+
+}
+.message-error{
+  color:#f00;
+}
+#table_user_filter{
+  margin-top: 20px;
+}

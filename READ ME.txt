@@ -1,0 +1,13 @@
+account admin:admin / 123456
+
+account user: admin1 / 123456
+
+After admin login system will go to admin dashboard and manager system
+
+
+After user login system will go to list post and read post
+
+Add tags in input form, please press " , " .
+
+Example: hot,cool,
+
